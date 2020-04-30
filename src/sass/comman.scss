@@ -1,0 +1,42 @@
+em {
+    font-style: normal;
+    color: $theme-color;
+    font-weight: 900;
+}
+.main-button{ 
+    a {
+        display: inline-block;
+        font-size: 15px;
+        padding: 12px 20px;
+        background-color: $theme-color;
+        color: $white;
+        text-align: center;
+        font-weight: 400;
+        text-transform: uppercase;
+        transition: all .3s;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+.section-heading{
+    text-align: center;
+    margin-bottom: 80px;
+    h2{
+        font-size: 28px;
+        font-weight: 800;
+        color: #232d39;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    img {
+        margin: 20px auto;
+    }
+    p {
+        font-size: 14px;
+        line-height: 25px;
+        color: #7a7a7a;
+    }
+}
